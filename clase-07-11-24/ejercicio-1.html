@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi práctica de HTML semántico</title>
+</head>
+<body>
+<!-- Header es la sección superior de la página y generalmente incluye información introductoria, como el título y el menú de navegación -->
+<header>
+    <h1>Bienvenidos a mi sitio web</h1>
+    <!-- Menú de navegación -->
+     <nav>
+        <ul>
+            <li> Sobre mi </li>
+            <li> Intereses </li>
+            <li> Enlaces de interes</li>
+        </ul>
+     </nav>
+    </header>
+
+    <!-- Main es la sección principal que contiene el contenido central de la página.
+     Se recomienda usar main solo una vez en cada página para indicar la parte más impornta del
+     documento -->
+     <main>
+        <section>
+            <h2>Sobre mi</h2>
+            <p>Me llamo Omar Oliva y estoy aprendiendo desarrollo web y etiquetas semátincas de html
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi quia eveniet enim ut fugiat iste asperiores, numquam labore accusantium veniam repellat neque dicta voluptatem voluptatibus repudiandae? Odio, vitae quae.
+            </p>
+        </section>
+        <section>
+            <h2>Intereses</h2>
+            <ul>
+                <li>Programación</li>
+                <li>Idiomas</li>
+                <li>Cine de autor</li>
+                <li>Docencia</li>
+                <li>Tecnología</li>
+                <li>Moda</li>
+            </ul>
+
+            <!-- figure agrupa contenido visual como imágenes, y es común utilizarla en conjunto con la etiqueta
+             figcaption, que proporciona un título o descripción para el contenido visual -->
+             <figure>
+                <img 
+                src="./img/Importancia-de-la-Tecnologia-en-la-educacion-Ventajas-y-Principales-Usos.jpg" alt="">
+                <figcaption>Imagen representativa de mis intereses</figcaption>
+             </figure>
+        </section>
+        <section>
+            <h2>Enlaces</h2>
+            <p>Visita estos sitios recomendados para aprender desarrollo web</p>
+            <ul>
+                <!-- a es una etiqueta de enlaces que generalmente viene acompañada del atributo href donde agregamos
+                 la dirección a la cual queremos rediceccionar, otro atributo comunmente utilizado es el de targer
+                 que da un control de cómo se va abrir el enlace -->
+                <li>
+                    <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">W3schools</a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN Web Docs</a>
+                </li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <footer>
+                <p>&copy; 2024 Omar Oliva. Todos los derechos reservados.</p>
+            </footer>
+        </section>
+     </main>
+
+</body>
+</html>
+    
